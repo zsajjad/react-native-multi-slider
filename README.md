@@ -85,7 +85,7 @@ Feel free to contribute to this part of the documentation.
 | max | 10 | number | Maximum value available in the slider. |
 | step | 1 | number | Step value of the slider. |
 | optionsArray |  | array | (?) |
-| {container/track/selected/unselected/ markerContainer/marker/pressedMarker} Style |  | style object | Styles for the slider |
+| {container/track/selected/unselected/ markerContainer/touch/marker/pressedMarker} Style |  | style object | Styles for the slider |
 | valuePrefix |  | string | Prefix added to the value. |
 | valueSuffix |  | string | Suffix added to the value. |
 | enabledOne | true | boolean | Enables the first cursor |

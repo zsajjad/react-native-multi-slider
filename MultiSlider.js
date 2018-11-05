@@ -406,7 +406,7 @@ export default class MultiSlider extends React.Component {
             ]}
           >
             <View
-              style={[styles.touch, touchStyle]}
+              style={[styles.touch, this.props.touchStyle, touchStyle]}
               ref={component => (this._markerOne = component)}
               {...this._panResponderOne.panHandlers}
             >
@@ -443,7 +443,7 @@ export default class MultiSlider extends React.Component {
                 ]}
               >
                 <View
-                  style={[styles.touch, touchStyle]}
+                  style={[styles.touch, this.props.touchStyle, touchStyle]}
                   ref={component => (this._markerTwo = component)}
                   {...this._panResponderTwo.panHandlers}
                 >
